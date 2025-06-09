@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import GitHubStats from './components/GitHubStats'
 import Contact from './components/Contact'
 import SectionWrapper from './components/SectionWrapper'
+import DarkModeButton from './components/DarkModeButton'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
@@ -21,7 +22,8 @@ function App() {
   return (
     <div className={darkMode ? 'App dark' : 'App light'}>
       <SectionWrapper id="home">
-        <Home darkMode={darkMode} setDarkMode={setDarkMode} />
+        <DarkModeButton darkMode={darkMode} setDarkMode={setDarkMode} />
+        <Home />
       </SectionWrapper>
       <SectionWrapper id="sobre-mi">
         <About />

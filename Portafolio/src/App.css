@@ -73,11 +73,11 @@ body {
 /* Toggle Dark Mode Button */
 
 .toggle-dark {
-  position: absolute;
-  top: -16rem;
-  right: 21rem;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
   background: #fff;
-  border: 2px solid #6366f1;
+  border: 2px solid #007acc;
   border-radius: 30px;
   width: 65px;
   height: 32px;
@@ -89,15 +89,14 @@ body {
   transition: background 0.3s, border-color 0.3s;
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
   font-size: 1.2rem;
-  z-index: 10;
-  position: relative;
+  z-index: 1000;
   scale: 1.2;
 }
 
 .toggle-dark .toggle-thumb {
   width: 24px;
   height: 24px;
-  background: #6366f1;
+  background: #007acc;
   border-radius: 50%;
   transition: transform 0.3s, background 0.3s;
   display: flex;
