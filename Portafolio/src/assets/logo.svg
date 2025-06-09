@@ -1,0 +1,9 @@
+<svg width="240" height="240" viewBox="30 50 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Forma curva principal -->
+  <path d="M35 100 Q60 30 85 100" stroke="#6366F1" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Círculo decorativo derecho -->
+  <circle cx="68" cy="78" r="8" fill="#A5B4FC" opacity="0.7"/>
+  <!-- Línea corta decorativa -->
+  <line x1="58" y1="90" x2="62" y2="90" stroke="#6366F1" stroke-width="4" stroke-linecap="round"/>
+</svg>
